@@ -4,7 +4,9 @@
   <div class="pace-progress-inner"></div>
 </div>
 <div class="pace-activity"></div></div>
-  <a id="route" class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <a href="{{ site.baseurl }}/">
+	<img src="{{ site.baseurl }}/assets/image/logo.gif" id="route" class="site-title">
+  </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -23,8 +25,7 @@
           {% endunless %}
           {% endif %}
         {% endfor %}
-        <a class="page-link" href="{{ site.url | append: site.baseurl }}/feed.xml"> Feeds</a>
-        <a class="page-link" href="http://github.com/{{ site.github_username }}?tab=repositories"><i class="typico typcn typcn-social-github" style="font-size:"></i> Repositories</a>
+        <a class="page-link" href="{{ site.url | append: site.baseurl }}/feed.xml"><i class="typico typcn typcn-rss" style="font-size:"></i> </a>
       </div>
     </nav>
 

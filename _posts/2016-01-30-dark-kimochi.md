@@ -6,6 +6,9 @@ category:
 tags: 
 - jekyll
 - themes
+- test
+- romhack
+- traducciones
 categories:
 - project
 

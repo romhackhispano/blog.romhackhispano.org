@@ -24,15 +24,14 @@ figure {
 }
 
 body {
-    font: 400 16px/1.5 gidole;
-    color: #fff;
-    background-color: #222222;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
+    margin: -15px 0 0 0;
+    *margin: 0;
+	padding: 0px;
+	background-color: #181818;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif;
+	font-size: 13px;
+	color: #ededed;
+	line-height: 24px;
 }
 
 h1,
@@ -51,6 +50,8 @@ figure,
 .highlight {
     margin-bottom: 15px;
 }
+
+
 
 img {
     max-width: 100%;
@@ -85,7 +86,7 @@ h6 {
 }
 
 a {
-    color: #0ce3ac;
+    color: #faacda;
     text-decoration: none;
 }
 
@@ -232,7 +233,7 @@ pre>code {
         font-size: 1em;
     }
     .post-excerpt p {
-        font-size: 16px;
+        font-size: 13px;
     }
     .post-meta {
         font-size: 12px;
@@ -262,14 +263,14 @@ ul {
     content: "";
     width: 7px;
     height: 7px;
-    border: #00bc8c 1px solid;
+    border: #faacda 1px solid;
     position: absolute;
     bottom: 43px;
     left: 50%;
     margin-left: -5px;
     background: #138668;
     border-radius: 100%;
-    box-shadow: #00bc8c 0 0 0 5px;
+    box-shadow: #faacda 0 0 0 5px;
 }
 
 .tags li {
@@ -361,8 +362,8 @@ ul {
 
 .pagination span,
 .pagination a {
-    font-size: 16px;
-    background: #00bc8c;
+    font-size: 13px;
+    background: #faacda;
     padding: 5px 15px;
     /* border-radius: 3px; */
     color: #969696;
@@ -386,7 +387,7 @@ ul {
 .site-header {
     height: 50px;
     position: relative;
-    background: #375a7f;
+    background: #181818;
     position: fixed;
     margin-bottom: 54px;
     top: 0;
@@ -402,6 +403,7 @@ ul {
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+	padding-top: 5px;
 }
 
 .site-title,
@@ -461,7 +463,6 @@ ul {
     color: #555;
     float: none;
     padding: 6px 12px;
-    min-width: 293px;
     background-color: #3E3E3E;
     color: #fff;
     padding: 0 0px 12px 0px;
@@ -476,7 +477,7 @@ ul {
 }
 
 .inpost-header {
-    background: #00bc8c;
+    background: #faacda;
     padding: 15px 20px 20px 20px;
     height: 30px;
 }
@@ -567,7 +568,7 @@ ul {
     min-width:200px;
     }
     .inpost-header {
-    background: #00bc8c;
+    background: #faacda;
     padding: 10px 10px 5px 15px;
     height: 30px;
 }
@@ -1414,7 +1415,7 @@ ul {
     height: 0;
     border-style: solid;
     border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #00bc8c transparent;
+    border-color: transparent transparent #faacda transparent;
     position: absolute;
     top: -10px;
     left: 10px;
@@ -1737,7 +1738,7 @@ ul {
 
 
 .easy-autocomplete-container ul {
-    background: none repeat scroll 0 0 #00bc8c;
+    background: none repeat scroll 0 0 #faacda;
     /* border-top: 1px dotted #ccc; */
     display: none;
     margin-top: 0;
